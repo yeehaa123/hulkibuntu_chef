@@ -1,0 +1,15 @@
+{
+  "rvm": {
+    "default_ruby": "ruby-2.0.0-p0",
+    "user_default_ruby": "ruby-2.0.0-p0"
+  },
+
+  "run_list": [
+    "recipe[apt::default]",
+    "recipe[oh-my-zsh]",
+    "recipe[vim]",
+    "recipe[rvm::system]",
+    "recipe[openbox]"
+  ]
+}
+
